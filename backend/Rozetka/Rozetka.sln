@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozetka.API", "Rozetka.API\Rozetka.API.csproj", "{14600CB3-FB1F-42A1-84F1-BC93EBD8172F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozetka.Business", "Rozetka.Business\Rozetka.Business.csproj", "{0C5F0CE5-6DBC-4FA4-BDFE-9A309F831ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozetka.Core", "Rozetka.Core\Rozetka.Core.csproj", "{FD550705-27B8-42E9-947E-597D28BCB870}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8F031445-E325-4A7E-B66A-F3EDAF530BC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{5174F17C-2B1E-4F82-BE5C-5ABAFEE5FC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozetka.Business.Tests", "Rozetka.Business.Tests\Rozetka.Business.Tests.csproj", "{A71C988D-8FAA-4605-9AF1-D1EE9E0960A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14600CB3-FB1F-42A1-84F1-BC93EBD8172F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14600CB3-FB1F-42A1-84F1-BC93EBD8172F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14600CB3-FB1F-42A1-84F1-BC93EBD8172F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14600CB3-FB1F-42A1-84F1-BC93EBD8172F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5F0CE5-6DBC-4FA4-BDFE-9A309F831ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5F0CE5-6DBC-4FA4-BDFE-9A309F831ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5F0CE5-6DBC-4FA4-BDFE-9A309F831ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5F0CE5-6DBC-4FA4-BDFE-9A309F831ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD550705-27B8-42E9-947E-597D28BCB870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD550705-27B8-42E9-947E-597D28BCB870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD550705-27B8-42E9-947E-597D28BCB870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD550705-27B8-42E9-947E-597D28BCB870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71C988D-8FAA-4605-9AF1-D1EE9E0960A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71C988D-8FAA-4605-9AF1-D1EE9E0960A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71C988D-8FAA-4605-9AF1-D1EE9E0960A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71C988D-8FAA-4605-9AF1-D1EE9E0960A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C5F0CE5-6DBC-4FA4-BDFE-9A309F831ECE} = {5174F17C-2B1E-4F82-BE5C-5ABAFEE5FC7E}
+		{A71C988D-8FAA-4605-9AF1-D1EE9E0960A0} = {5174F17C-2B1E-4F82-BE5C-5ABAFEE5FC7E}
+	EndGlobalSection
+EndGlobal
