@@ -2,9 +2,9 @@ namespace Rozetka.Core.Models;
 
 public class AuthUser
 {
-    public Guid Id { get;}
-    public string UserName { get;}
-    public string PasswordHash { get;}
-    public string PasswordSalt { get;}
-    public string TokenExpirationDate { get;}
+    public Guid Id { get; set; }
+    public string UserName { get; set; } = string.Empty;
+    public string PasswordHash { get; set; } =  string.Empty;
+    public byte[] PasswordSalt { get; set; } = Array.Empty<byte>();
+    public DateTime TokenExpirationDate { get; set; }
 }

@@ -2,8 +2,8 @@ namespace Rozetka.Core.Models;
 
 public class User
 {
-    public Guid Id { get;}
-    public string FirstName { get;}
-    public string LastName { get;}
-    public string Email { get;}
+    public Guid Id { get; set; }
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
 }
